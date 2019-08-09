@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7f9d8f3c61747c25c910dc2a1ae608f9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1ab168ac13b80cff37d2edccf7ee428e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4a58e8054b5d5696bb03a1c28ad96eab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/967aa6e5bef1855691d26b7dda340e68/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48fbc0bba95f7fd2c59181e6a88c30d4/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/df1dc79c89bc67daca05fb8a24f2bad9/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/86ecac65d57c41ec5cb19484ceb09de0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/14ebe94b13226a9463fd484b42fec62a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a5d1b2700bf0d89f68950a6fd324705a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/67a2ac14550744e8a914bed70a55d0d2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7a75f8b6d0b59e4413278559bec8fc57/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/2c8db37ebbb7b6ee95c15acee59c31b6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/3ec53ea711db47d0a21ccba9cfc07bd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ff274c20f48724c73a90599667e7b169/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/28a62da5a5c1b412d357a5bed3676f82/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/324c0be3826ba3e6ddb865a54f1364d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/8bdd06c7d563a8b5701b426d67cfbda2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/58201bc3be4851601aefd331547524ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/59f958277d0630101c75088e1be503d6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a8b4067af74b09433a6bf6f4dc4ff22f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca13c0a307ebae5a694fa992ea48330d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/87c086d83fe71bdec5a216d3f2dc549d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/e718284033987603875e32035944fe63/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0e376411690109faa863c82061c39a1a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4068aecb17c9c70b7c4b9ffb684abb50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/718d3b588169f4c56e19cdc7f7e41d93/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48f00e70c6944e38c2804fa06c3a77b5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/f381d3a099f2f099638658469b1c1ed6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/23ee3fc67121290b377d9de1aab21cf2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7b24b18bf165bef0ef945d91864c77a7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0241697cad94773f1b44a19fc893a895/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/def87601fcf35a39750cb74cfa827291/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/55c00dc9edb6424ac26f3c17ccf4925a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca5249b28664a85e4400cb1f8246edda/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/b21f434eca541d416a94db464efee790/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:4:11-37
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:9:22-74
+application
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:11:5-32:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7f9d8f3c61747c25c910dc2a1ae608f9/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7f9d8f3c61747c25c910dc2a1ae608f9/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1ab168ac13b80cff37d2edccf7ee428e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1ab168ac13b80cff37d2edccf7ee428e/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48fbc0bba95f7fd2c59181e6a88c30d4/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48fbc0bba95f7fd2c59181e6a88c30d4/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/df1dc79c89bc67daca05fb8a24f2bad9/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/df1dc79c89bc67daca05fb8a24f2bad9/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/e718284033987603875e32035944fe63/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/e718284033987603875e32035944fe63/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/718d3b588169f4c56e19cdc7f7e41d93/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/718d3b588169f4c56e19cdc7f7e41d93/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:17:13-39
+	android:label
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:14:13-45
+	tools:ignore
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:19:13-64
+	android:roundIcon
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:16:13-58
+	tools:targetApi
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:19:65-84
+	android:icon
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:13:13-47
+	android:theme
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:18:13-44
+	android:networkSecurityConfig
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:15:13-73
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:12:13-45
+activity#com.sun.music_66.SplashActivity
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:20:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:22:17-68
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.sun.music_66.MainActivity
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:27:9-28:57
+	android:screenOrientation
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:28:19-55
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:27:19-47
+service#com.sun.music_66.service.MediaService
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:29:18-54
+service#com.sun.music_66.service.DownloadIntentService
+ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:30:9-65
+	android:name
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml:30:18-63
+uses-sdk
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7f9d8f3c61747c25c910dc2a1ae608f9/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7f9d8f3c61747c25c910dc2a1ae608f9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1ab168ac13b80cff37d2edccf7ee428e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1ab168ac13b80cff37d2edccf7ee428e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4a58e8054b5d5696bb03a1c28ad96eab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4a58e8054b5d5696bb03a1c28ad96eab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/967aa6e5bef1855691d26b7dda340e68/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/967aa6e5bef1855691d26b7dda340e68/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48fbc0bba95f7fd2c59181e6a88c30d4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48fbc0bba95f7fd2c59181e6a88c30d4/AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/df1dc79c89bc67daca05fb8a24f2bad9/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/df1dc79c89bc67daca05fb8a24f2bad9/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.palette:palette:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/86ecac65d57c41ec5cb19484ceb09de0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/86ecac65d57c41ec5cb19484ceb09de0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/14ebe94b13226a9463fd484b42fec62a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/14ebe94b13226a9463fd484b42fec62a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a5d1b2700bf0d89f68950a6fd324705a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a5d1b2700bf0d89f68950a6fd324705a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/67a2ac14550744e8a914bed70a55d0d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/67a2ac14550744e8a914bed70a55d0d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7a75f8b6d0b59e4413278559bec8fc57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7a75f8b6d0b59e4413278559bec8fc57/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/2c8db37ebbb7b6ee95c15acee59c31b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/2c8db37ebbb7b6ee95c15acee59c31b6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/3ec53ea711db47d0a21ccba9cfc07bd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/3ec53ea711db47d0a21ccba9cfc07bd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ff274c20f48724c73a90599667e7b169/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ff274c20f48724c73a90599667e7b169/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/28a62da5a5c1b412d357a5bed3676f82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/28a62da5a5c1b412d357a5bed3676f82/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/324c0be3826ba3e6ddb865a54f1364d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/324c0be3826ba3e6ddb865a54f1364d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/8bdd06c7d563a8b5701b426d67cfbda2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/8bdd06c7d563a8b5701b426d67cfbda2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/58201bc3be4851601aefd331547524ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/58201bc3be4851601aefd331547524ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/59f958277d0630101c75088e1be503d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/59f958277d0630101c75088e1be503d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a8b4067af74b09433a6bf6f4dc4ff22f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/a8b4067af74b09433a6bf6f4dc4ff22f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca13c0a307ebae5a694fa992ea48330d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca13c0a307ebae5a694fa992ea48330d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/87c086d83fe71bdec5a216d3f2dc549d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/87c086d83fe71bdec5a216d3f2dc549d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/1192bf0976e1aeced85e4715fb395a3b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/e718284033987603875e32035944fe63/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/e718284033987603875e32035944fe63/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0e376411690109faa863c82061c39a1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0e376411690109faa863c82061c39a1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4068aecb17c9c70b7c4b9ffb684abb50/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/4068aecb17c9c70b7c4b9ffb684abb50/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/718d3b588169f4c56e19cdc7f7e41d93/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/718d3b588169f4c56e19cdc7f7e41d93/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48f00e70c6944e38c2804fa06c3a77b5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/48f00e70c6944e38c2804fa06c3a77b5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/f381d3a099f2f099638658469b1c1ed6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/f381d3a099f2f099638658469b1c1ed6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/23ee3fc67121290b377d9de1aab21cf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/23ee3fc67121290b377d9de1aab21cf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7b24b18bf165bef0ef945d91864c77a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/7b24b18bf165bef0ef945d91864c77a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0241697cad94773f1b44a19fc893a895/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/0241697cad94773f1b44a19fc893a895/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/def87601fcf35a39750cb74cfa827291/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/def87601fcf35a39750cb74cfa827291/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/55c00dc9edb6424ac26f3c17ccf4925a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/55c00dc9edb6424ac26f3c17ccf4925a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca5249b28664a85e4400cb1f8246edda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/ca5249b28664a85e4400cb1f8246edda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/b21f434eca541d416a94db464efee790/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nguyenxuanhoi/.gradle/caches/transforms-2/files-2.1/b21f434eca541d416a94db464efee790/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/src/main/AndroidManifest.xml

@@ -1,0 +1,4 @@
+#Wed Jul 31 11:10:08 ICT 2019
+base.0=/Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Local/Music_66/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex

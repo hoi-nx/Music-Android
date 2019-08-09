@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:padding="@dimen/_8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/bg_default_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text_name_track"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:layout_marginEnd="@dimen/_8dp"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title"
+        app:layout_constraintBottom_toTopOf="@+id/text_artist"
+        app:layout_constraintEnd_toStartOf="@+id/image_previous"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/text_artist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8dp"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_name_track"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/text_name_track"
+        app:layout_constraintTop_toBottomOf="@+id/text_name_track" />
+
+    <ImageButton
+        android:id="@+id/image_next"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:padding="@dimen/_2dp"
+        android:src="@drawable/ic_skip_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/image_play"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:padding="@dimen/_2dp"
+        android:src="@drawable/ic_play_music"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/image_next"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/image_previous"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:padding="@dimen/_2dp"
+        android:src="@drawable/ic_skip_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/image_play"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

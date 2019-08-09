@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Music_66</string>
+    <string name="error_connect">Network not available</string>
+    <string name="option_dialog_disagree">No</string>
+    <string name="option_dialog_agree">Yes</string>
+    <string name="internet_disconnect">Vui lòng kiểm tra kết nối Internet</string>
+    <string name="server_error">Server error</string>
+    <string name="title_home">Home</string>
+    <string name="title_library">Library</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_see_all">See all</string>
+    <string name="title_geners">Genres</string>
+    <string name="title_suggest">Suggest</string>
+    <string name="title_song">Song</string>
+    <string name="playing_notification_description">The playing notification provides actions for play/pause etc.
+    </string>
+    <string name="playing_notification_name">Playing notification</string>
+    <string name="action_play_next">Play next</string>
+    <string name="action_play">Play</string>
+    <string name="action_play_pause">Play/Pause</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="message_fail_stream">Không thể play bài hát vì lý do bản quyền</string>
+    <string name="error_connect_service">Error Connect Service</string>
+    <string name="play">Play</string>
+    <string name="play_next">Play next</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="go_to_album">Go to album</string>
+    <string name="go_to_artist">Go to artist</string>
+    <string name="title_download">Download</string>
+    <string name="alert_permissions_rationale">Ứng dụng cần được cấp quyền để thực hiện các chức năng</string>
+    <string name="title_my_song">My Song</string>
+</resources>

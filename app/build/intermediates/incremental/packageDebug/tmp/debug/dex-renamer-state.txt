@@ -1,0 +1,7 @@
+#Fri Aug 09 10:06:22 ICT 2019
+base.0=/Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Music-Android/app/build/intermediates/dex/debug/mergeProjectDexDebug/out

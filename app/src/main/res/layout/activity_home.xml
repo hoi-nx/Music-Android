@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    app:layoutDescription="@xml/scene_play_music">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageTrack"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent=".7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seek_bar" />
+
+    <View
+        android:id="@+id/view_bottom_gradient"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:alpha="1"
+        android:background="@drawable/now_playing_bottom_gradient"
+        app:layout_constraintBottom_toBottomOf="@id/imageTrack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textTrack"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8dp"
+        android:layout_marginEnd="@dimen/_8dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/textArtist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textArtist"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#DDF5F5F5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/text_time"
+        app:layout_constraintEnd_toEndOf="@id/textTrack"
+        app:layout_constraintStart_toStartOf="@id/textTrack" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:alpha="0.85"
+
+        android:gravity="center"
+        android:paddingStart="@dimen/_8dp"
+        android:paddingTop="@dimen/_2dp"
+        android:paddingEnd="@dimen/_8dp"
+        android:paddingBottom="@dimen/_2dp"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_8dp"
+        app:layout_constraintBottom_toBottomOf="@id/view_bottom_gradient"
+        app:layout_constraintEnd_toStartOf="@+id/imageFavorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_bottom_gradient" />
+
+    <ImageView
+        android:id="@+id/imageFavorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8dp"
+        app:layout_constraintBottom_toBottomOf="@id/view_bottom_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_bottom_gradient" />
+
+    <ImageView
+        android:id="@+id/image_play"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:background="@drawable/ripple_oval"
+        android:padding="@dimen/_8dp"
+        android:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seek_bar" />
+
+    <ImageView
+        android:id="@+id/prev_button"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:background="@drawable/ripple_oval"
+        android:padding="@dimen/_8dp"
+        android:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/image_play"
+        app:layout_constraintEnd_toStartOf="@id/image_play"
+        app:layout_constraintTop_toTopOf="@id/image_play" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:background="@drawable/ripple_oval"
+        android:padding="@dimen/_8dp"
+        android:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/image_play"
+        app:layout_constraintStart_toEndOf="@id/image_play"
+        app:layout_constraintTop_toTopOf="@id/image_play" />
+
+    <ImageView
+        android:id="@+id/imageShuffle"
+        android:layout_width="@dimen/_30dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="@+id/prev_button"
+        app:layout_constraintEnd_toStartOf="@+id/prev_button"
+        app:layout_constraintTop_toTopOf="@+id/prev_button" />
+
+    <ImageView
+        android:id="@+id/imageLoop"
+        android:layout_width="@dimen/_30dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_marginStart="@dimen/_24dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="@+id/next_button"
+        app:layout_constraintStart_toEndOf="@+id/next_button"
+        app:layout_constraintTop_toTopOf="@+id/next_button" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_more_vert"
+        android:tint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:background="@color/color_gray_70"
+        app:elevation="@dimen/_6dp"
+        app:itemIconSize="@dimen/_24dp"
+        app:itemIconTint="@color/bottom_navigation_icon_color"
+        app:itemTextColor="@color/bottom_navigation_icon_color"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

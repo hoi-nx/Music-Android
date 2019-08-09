@@ -1,0 +1,32 @@
+[
+  {
+    "id": "soundcloud:genres:all-music",
+    "name": "All Music",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/0/5/e/005e1e8aedbd28ba2a1e4cf4a8317294.jpg"
+  },
+  {
+    "id": "soundcloud:genres:all-audio",
+    "name": "All Audio",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/2/f/4/c/2f4cf9762a2cae741a5dde3647f97823.jpg"
+  },
+  {
+    "id": "soundcloud:genres:alternativerock",
+    "name": "Rock",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/3/b/c/2/3bc2ba772d2666bd6ed293e859edc75c.jpg"
+  },
+  {
+    "id": "soundcloud:genres:ambient",
+    "name": "Ambient",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/6/2/a/062a252a9f96282bc32dbfc0bc7741e4.jpg"
+  },
+  {
+    "id": "soundcloud:genres:classical",
+    "name": "Classical",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/a/e/b/0aeb19c20c33f5ae841254d3ff7a6dc0.jpg"
+  },
+  {
+    "id": "soundcloud:genres:country",
+    "name": "Country",
+    "image_url": "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/e/8/3/f/e83f5c0aa9bc509373212f4c5410bb1f.jpg"
+  }
+]

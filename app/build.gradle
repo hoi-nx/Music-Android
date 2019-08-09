@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    def versionPropertiesFile = file('key.properties')
+    Properties versionProperties = new Properties()
+    versionProperties.load(new FileInputStream(versionPropertiesFile))
+    def CLIENT_ID = versionProperties['CLIENT_ID'].toString()
+    defaultConfig {
+        applicationId "com.sun.music_66"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "CLIENT_ID", "\"e534ffbc2d474446c8538d23b1c7605c\""
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    androidExtensions {
+        experimental = true
+    }
+}
+ext {
+    logging_interceptor = '3.12.0'
+    gson = '2.8.5'
+    glide = '4.9.0'
+    google_material = '1.0.0'
+    constraintlayout = '2.0.0-beta2'
+    circle_imageview = '3.0.0'
+
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor"
+    implementation "com.google.code.gson:gson:$gson"
+    implementation "com.google.android.material:material:$google_material"
+    implementation "com.github.bumptech.glide:glide:$glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide"
+    implementation "de.hdodenhof:circleimageview:$circle_imageview"
+    implementation 'androidx.palette:palette:1.0.0'
+    testImplementation 'org.mockito:mockito-core:3.0.0'
+    testImplementation 'org.mockito:mockito-inline:2.13.0'
+    testImplementation 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0'
+}

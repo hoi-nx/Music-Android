@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_slide_background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_slider"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_bottom_gradient"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/now_playing_bottom_gradient"
+        app:layout_constraintBottom_toBottomOf="@+id/img_slide_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_track" />
+
+    <ImageView
+        android:id="@+id/image_track"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginBottom="@dimen/_16dp"
+        android:src="@drawable/bg_avata_default"
+        app:layout_constraintBottom_toBottomOf="@id/img_slide_background"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_name_track"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8dp"
+        android:layout_marginRight="@dimen/_8dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/image_track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_track"
+        app:layout_constraintTop_toTopOf="@id/image_track" />
+
+    <TextView
+        android:id="@+id/text_description"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8dp"
+        android:layout_marginRight="@dimen/_8dp"
+        android:ellipsize="marquee"
+        android:textIsSelectable="true"
+        android:maxLines="2"
+        android:textColor="@color/color_gray_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_track"
+        app:layout_constraintTop_toBottomOf="@id/text_name_track" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

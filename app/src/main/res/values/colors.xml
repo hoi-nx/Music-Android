@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/color_gray_70</color>
+    <color name="color_primary_dark">@color/color_gray_70</color>
+    <color name="color_accent">#D81B60</color>
+    <color name="color_gray_900">#212121</color>
+    <color name="color_gray_500">#9E9E9E</color>
+    <color name="color_gray_300">#E0E0E0</color>
+    <color name="color_gray_70">#B3212121</color>
+    <color name="color_black">#080808</color>
+</resources>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jul 31 11:08:56 ICT 2019
+0.baseType=DIRECTORY
+0.base=/Users/nguyenxuanhoi/Desktop/Sun-Asterisk/Project/Local/Music_66/app/build/intermediates/merged_assets/debug/out
+0.path=genres.json
+0.set=ASSET
+count=1
